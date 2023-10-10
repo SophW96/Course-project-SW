@@ -1,7 +1,12 @@
 # Course-project-SW
 
+Project background: This script can be used to normalize a proteomics dataset containing numeric protein abundance values (rows) recorded for each patient cerebrospinal fluid sample (column).
+
 Note: The sample data (sample_data_SW.csv) is a csv file containing 51 columns and several hundreds of rows. The entries are numeric values.
-Both the sample data and python script should be downloaded from the repository.
+
+The sample data, python script and requirement.txt file should be downloaded from the repository.
+
+First, run "pip install -r requirments.txt" to install all necessary packages (keep in mind to add the file path if necessary).
 The script can be executed from the command line with the following line "python course_project.py sample_data_SW.csv" (keep in mind to add the file path if necessary).
 
 This script should carry out the following steps:
