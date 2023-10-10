@@ -35,6 +35,7 @@ if __name__ == "__main__":
 
 df = read_csv_file(file_name) #assign variable (df) to loaded CSV file
 
+
 # Define the number of columns in each section
 section_size = 17 
 # Calculate the amount of sections
